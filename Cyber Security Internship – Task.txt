@@ -1,0 +1,84 @@
+#  Cyber Security Internship – Task 7: Identify and Remove Suspicious Browser Extensions
+
+##  Objective
+Understand the security risks posed by browser extensions and learn how to identify, review, and remove suspicious ones.
+
+---
+
+##  Tools Used:
+- Browser: **Google Chrome (Latest Version)**
+- OS: Windows
+- Method: Manual review of extension permissions and developers
+
+---
+
+## Installed Extensions Found:
+
+### 1.  Google Docs Offline
+- **Description:** Allows offline access to Google Docs, Sheets, and Slides.
+- **Developer:** Google LLC
+- **Permissions:**
+  - Read/change data on docs.google.com and drive.google.com
+- **Risk Level:**  **Safe**
+- **Reason:** Trusted developer (Google), limited permissions, widely used.
+
+Screenshot:  
+![Google Docs Offline](./Screenshot%202025-07-03%20214032.png)
+
+---
+
+### 2. McAfee WebAdvisor
+- **Description:** Claims to protect from malicious websites.
+- **Developer:** McAfee, LLC
+- **Permissions:**
+  - Read your browsing history
+  - Block content on any page
+  - Manage downloads
+  - Communicate with native applications
+- **Site Access:** All websites
+- **Risk Level:**  **Potential Privacy Risk**
+- **Reason for Concern:**
+  - Heavy permissions (full browsing activity, download control)
+  - Some users report ad injection or performance issues
+  - Not essential unless user depends on it for antivirus
+
+📸 Screenshot:  
+![McAfee WebAdvisor](./Screenshot%202025-07-03%20214048.png)
+
+---
+
+##  Action Taken:
+-  **Google Docs Offline** – Kept (safe)
+-  **McAfee WebAdvisor** – **Removed**
+  - Reason: Not necessary, high permissions, affects privacy and performance
+
+ All Extensions View (Before Cleanup):  
+![All Extensions](./Screenshot%202025-07-03%20214015.png)
+
+---
+
+## Key Learnings:
+
+- Extensions with access to **all site data** should be treated cautiously.
+- **Review developer reputation** and permissions before trusting extensions.
+- Even **well-known brand extensions** can overreach.
+- Always keep your browser clean and remove what you don’t use.
+
+---
+
+##  Files in this Repo:
+
+| File Name | Description |
+|-----------|-------------|
+| `README.md` | Documentation of the task |
+| `Screenshot 2025-07-03 214015.png` | All extensions (before cleanup) |
+| `Screenshot 2025-07-03 214032.png` | Google Docs Offline details |
+| `Screenshot 2025-07-03 214048.png` | McAfee WebAdvisor details |
+
+---
+
+## 🔗 Submission Link:
+[GitHub Repository Link Goes Here]
+
+---
+
